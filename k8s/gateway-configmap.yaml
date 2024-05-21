@@ -8,6 +8,8 @@ data:
   zuul.routes.department.path: "/department/**"
   zuul.routes.employee.path: "/employee/**"
   zuul.routes.organization.path: "/organization/**"
+  spring.data.mongodb.database: "admin"
+  spring.data.mongodb.host: "mongodb.mongo.svc.cluster.local"
   spring.output.ansi.enabled: "ALWAYS"
   management.endpoints.web.exposure.include: "health,info,metrics,prometheus"
   management.metrics.enable.all: "true"
